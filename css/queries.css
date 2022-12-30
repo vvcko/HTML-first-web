@@ -1,0 +1,94 @@
+@media only screen and (max-width: 1040px) {
+	
+    .span-1-of-2 {
+		width: 100%;
+		margin-top: 10px;   
+	}
+
+	nav {
+	display: block;	
+	margin-top: 0 auto
+	}
+
+	nav ul {
+	float: none;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 8px;   
+	}
+
+	.logo {
+		text-align: center;
+		margin-top: 5px;
+		margin-left: 8px;
+	}
+
+	
+	.ramecek {
+		height: 400px;
+	}
+
+}
+
+@media only screen and (max-width: 995px) {
+	
+	.ramecek {
+	height: 470px;
+	
+	}
+	.span-1-of-2 {
+		width: 100%;
+		margin-top: 8px;   
+	}
+
+	
+}
+
+@media only screen and (max-width: 900px) {
+	
+    
+	.span-1-of-3 {
+		width: 50%;
+	}
+
+	.span-1-of-4 {
+		width: 50%;
+	}
+
+	.ramecek {
+		height: 408px;
+	}
+
+}
+
+@media only screen and (max-width: 665px) {
+	.span-3-of-3 {
+		width: 100%; 
+	}
+	.span-2-of-3 {
+		width: 100%; 
+	}
+	.span-1-of-3 {
+		width: 100%;
+		margin-top: 5px;
+	}
+
+	.span-1-of-4 {
+		width: 100%;
+	}
+
+	.ramecek {
+		height: fit-content;
+		margin-top: 2px;
+	}
+
+	nav ul li {
+		margin-left: 8px;
+	}
+
+	nav ul li:last-child {
+		display: none;
+	}
+
+	
+}

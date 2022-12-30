@@ -1,0 +1,240 @@
+
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+/* reset    */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/******  reusable    *******/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-center {
+    margin-top: 10px;
+    text-align: center;
+}
+/******  main images    *******/
+.uvodni-img {
+    background: url("images/srnec12_nahled.jpg");
+    /* background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.2)), url("obrazky/srnec1.jpg"); */
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 120vh;
+}
+/******  logo    *******/
+.logo {
+    padding-left: 1%;
+}
+
+h1 {
+    color: rgb(0, 95, 0);
+    font-size: 35px;
+}
+
+small {
+    color: rgb(0, 95, 0);
+    font-size: 16px;
+    position: relative;
+    top: -10px;    
+}
+
+/******  Navigation    *******/
+.hlavicka {
+    background-color: rgb(240, 225, 225);
+}
+
+nav ul {
+    margin-top: 20px   
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    
+    margin: 0 5px;
+    color:rgb(0, 95, 0);
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a img {
+    position: relative;
+    width: 30px;
+    top: 8px;
+       
+}
+
+nav ul a:hover,
+.aktivni a {
+    border-bottom: 2px solid brown;
+}
+
+.sub-menu {
+    display: none;
+    color: white;
+}
+
+nav ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 95, 0);
+}
+
+nav ul li:hover .sub-menu li {
+    display: block;
+    margin: 2px;
+    background-color: rgb(240, 225, 225);
+        
+}
+
+nav ul li:hover .sub-menu li a {
+    color: white;
+    font-size: 16px;
+    border-width: 2px;
+    }
+
+nav ul li:hover .sub-menu li a:hover {
+    color: rgb(124, 237, 122);  
+    
+}
+
+nav ul li:hover .sub-menu ul li {
+    width: 120px;
+    padding: 8px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+
+nav ul li:hover .sub-menu ul li:last-child {
+    border-bottom: none;
+    
+}
+
+.cti_vic-tlacitko {
+    background: rgb(0, 95, 0);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.cti_vic-tlacitko:hover {
+    filter: brightness(115%) contrast(70%);
+    border: 0;
+}
+
+
+nav ul li a img:hover {
+    filter: brightness(115%) contrast(70%);
+}
+
+/******  Main    *******/
+body {
+    font: 18px "Poppins";
+    background: rgb(240, 225, 225);
+    color: rgb(65, 65, 65);
+}
+
+
+
+/******  Articles    *******/
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: rgb(0, 95, 0);
+}
+
+.prispevky p {
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.prispevky h2 {
+    display: block;
+}
+
+.ramecek {
+    height: 400px;
+    border: 1px solid rgb(65, 65, 65);
+    padding: 2px;
+    
+}
+
+.edge {
+    margin: 0 15px;
+}
+
+/* .zpet-tlacitko{
+    
+    text-align: right;
+    background: rgb(0, 95, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: 0;
+    font-weight: bold;
+    font-size: 1.2em;     
+} */
+
+/******  Footer   *******/
+
+footer p {
+    background: rgb(0, 95, 0);
+    color: white;
+    font-size: 12px;
+    margin: 50px 0 0 0;
+    padding: 7px 20px;
+}
+
+footer a {
+    color: white;
+}
+
+ .contentfooter {
+    margin-top: 45vh;
+    width: 100%;
+}
+
+
+.odkazy {
+    text-decoration: none;
+    color: rgb(0, 95, 0);
+    text-align: center;
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
